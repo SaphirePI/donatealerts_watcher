@@ -1,0 +1,16 @@
+{
+  "name": "donate_watcher",
+  "version": "1.0.0",
+  "description": "Bot thats allows you to integrate donationalerts.com to discord chat and store donates in database thats allows you make pricing in discord!",
+  "main": "index.js",
+  "repository": "https://github.com/thex49/donatealerts_watcher.git",
+  "author": "X-49",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "mysql2": "^2.1.0",
+    "socket.io-client": "^2.3.0",
+    "uniqid": "^5.2.0"
+  }
+}
