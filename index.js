@@ -31,7 +31,3 @@ socket.on('donation', async message => {
     let channel = client.channels.get(configuration.channel);
     if (channel) channel.send(embed).catch(e => {});
 })
-
-client.on('message', message => {
-
-})
